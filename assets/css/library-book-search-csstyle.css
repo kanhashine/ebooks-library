@@ -1,0 +1,136 @@
+/* Montserrat-300 - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/montserrat/Montserrat-Light.ttf");
+    /* IE9 Compat Modes */ }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+    /* IE9 Compat Modes */ }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    src: url("../fonts/montserrat/Montserrat-Italic.ttf");
+    /* IE9 Compat Modes */ }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/montserrat/Montserrat-Medium.ttf");
+    /* IE9 Compat Modes */ }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/montserrat/Montserrat-SemiBold.ttf");
+    /* IE9 Compat Modes */ }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/montserrat/Montserrat-Bold.ttf");
+    /* IE9 Compat Modes */ }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/montserrat/Montserrat-BoldItalic.ttf");
+    /* IE9 Compat Modes */ }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 900;
+    src: url("../fonts/montserrat/montserrat-v12-latin-900.ttf"), url("../fonts/montserrat/montserrat-v12-latin-900.eot") format("embedded-opentype"), url("../fonts/montserrat/montserrat-v12-latin-900.svg") format("woff2"), url("../fonts/montserrat/montserrat-v12-latin-900.woff") format("woff"), url("../fonts/montserrat/montserrat-v12-latin-900.woff2") format("truetype"); }
+
+.ui-slider .ui-btn-inner {
+    padding: 4px 0 0 0 !important;
+}
+ 
+.ui-slider-popup {
+    position: absolute !important;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 14px;
+    z-index: 100;
+    opacity: 0.8;
+}
+
+span.fa.fa-star.checked {
+    color: orange!important;
+}
+input#mdlibsBookName:focus {
+    outline: none;
+}
+.mdlibsheading {
+    text-align: center;
+    font-size: 21px;
+}
+
+.mdlibsRow {
+    clear: both;
+    display: -webkit-flex;
+    margin: 0 -11px;
+}
+.mdlibsmain .form-group {
+    /* width: 45%;
+    float: left;
+    padding: 10px; */
+    width: 50%;
+    padding: 0 11px;
+    margin-bottom: 23px;
+    position: relative;
+}
+/* .mdlibsInnerRight {
+    width: 45%;
+    float: left;
+    padding: 10px;
+} */
+.mdlibsInnerLeft em {
+    font-size: 12px;
+}
+input#mdlibs-range-1a, input#mdlibs-range-1b {
+    display: none;
+    visibility: hidden;
+}
+.mdlibsInnerLeft .ui-rangeslider-sliders {
+    margin: 0 0 0 12px!important;
+}
+
+.mdlibsInnerCenter {
+    width: 230px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+img#mdlibsloader {
+    position: relative;
+    top: 72px;
+    z-index: 99;
+    left: 160px;
+    color: #ffffff;
+    width: 22px;
+}
+div#mdlibSearchResult {
+    margin-top: 30px;
+}
+input#mdlibsearch {
+    width: auto;
+    background: #1da0f2;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 16px 50px;
+    border: none;
+    margin-top: 37px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
