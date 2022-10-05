@@ -3,7 +3,7 @@
 Contributors: kanhayaduwanshi
 Tags: books, library, online, test, filter, search, ebooks
 Requires at least: WordPress 5.0 or higher
-Tested up to: 6.0.1
+Tested up to: 6.0.2
 Requires PHP: 5.6
 Stable tag: 1.0
 License: GPLv2 or later
